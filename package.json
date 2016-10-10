@@ -1,0 +1,29 @@
+{
+  "name": "exist-fs",
+  "version": "1.0.0",
+  "description": "Add synchronous features to fs for testing if a path exists, is a file or a directory.",
+  "author": "Adrien Valcke <adrienvalcke@icloud.com> (https://adrienvalcke.github.io)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adrienvalcke/exist-fs.git"
+  },
+  "keywords": [
+    "fs",
+    "file system",
+    "existsSync",
+    "isDirSync",
+    "isFileSync"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^3.1.1"
+  },
+  "preferGlobal": false,
+  "private": false,
+  "analyze": false,
+  "license": "MIT"
+}
